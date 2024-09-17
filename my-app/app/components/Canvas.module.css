@@ -1,0 +1,64 @@
+.sidebar {
+    background-color: #282c34; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    border: 1px solid #444; /* Subtle border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Modern shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar h1 {
+    font-size: 1.5rem; /* Larger font for headings */
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Lighter heading color */
+  }
+  
+  .tool-button {
+    background-color: #61dafb; /* Light blue button color */
+    color: #282c34; /* Dark text color */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .tool-button:hover {
+    background-color: #21a1f1; /* Darker blue on hover */
+  }
+  
+  .tool-button i {
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
+  .slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .slider-container label {
+    color: #ccc; /* Light label color */
+    margin-bottom: 5px;
+  }
+  
+  .slider-container input[type="range"] {
+    width: 80%;
+  }
+  
+  .rnd-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1c1c1c; /* Slightly lighter background for the canvas */
+    border-radius: 12px;
+  }
+  
